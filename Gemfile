@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gemspec
-gem 'activerecord'
+gem 'activerecord', '>= 5.2.4.3'
 
 group :development do
   gem 'rake'
